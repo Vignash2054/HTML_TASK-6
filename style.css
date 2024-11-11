@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+}
+h1{
+    text-align: center;
+    background-color: rgb(230, 216, 204);
+}
+#main{
+    margin: auto;
+    margin-top: 40px;
+    width:600px;
+    height:580px;
+    border:2px solid black;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+.one, .two, .three, .four{
+    margin-top: 20px;
+    margin-left: 250px;
+    align-content: center;
+    background-color: rgb(2, 0, 97);
+    color:rgb(255, 255, 255);
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border: 2px solid black;
+}
+.one:hover{
+    background-color: darkgreen;
+}
+.two:hover{
+    background-color: indianred;
+}
+.three:hover{
+    background-color: blueviolet;
+}
+.four:hover{
+    background-color: darkkhaki;
+}
